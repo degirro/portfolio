@@ -30,7 +30,7 @@ export const AboutTitle = styled.h2`
 export const AboutDesc = styled.p`
     font-size: ${props => props.theme.sizes.large};
     color: ${props => props.theme.colors.lightText};
-    font-weight: inherit;
+    font-weight: 300;
     line-height: 25px;
 `
 
