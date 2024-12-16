@@ -9,9 +9,9 @@ export const TopbarContainer = styled.nav`
     width: 100%;
 `
 
-export const Logo = styled.p`
-    font-size: 20px;
-    color: ${props => props.theme.colors.text};
+export const Logo = styled.img`
+    height: 40px;
+    object-fit: cover;
 `
 
 export const ThemeButtonWrapper = styled.div`
