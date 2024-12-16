@@ -27,6 +27,10 @@ export const TechnologiesWrapper = styled.div`
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     grid-gap: 10px;
+    
+    @media (max-width: 930px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 `
 
 export const TechnologyBox = styled.div`
