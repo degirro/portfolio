@@ -10,7 +10,7 @@ export const Topbar: React.FC<props> = ({ isDarkMode, toggleTheme }) => {
 
     return (
         <TopbarContainer>
-            <Logo>Degirro</Logo>
+            <Logo src={isDarkMode ? 'logolight3.png' : 'logodark2.png'} />
             <ThemeButtonWrapper onClick={toggleTheme}>
                 <AnimatePresence>
                     {isDarkMode ?
