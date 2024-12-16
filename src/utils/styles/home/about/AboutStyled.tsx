@@ -2,9 +2,16 @@ import styled from "styled-components"
 
 export const AboutContainer = styled.section`
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 50px;
+
+    @media (max-width: 930px) {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
 `
 
 export const AboutContent = styled.div`
@@ -14,6 +21,10 @@ export const AboutContent = styled.div`
     color: ${props => props.theme.colors.text};
     font-weight: 400;
     width: 60%;
+
+    @media (max-width: 930px) {
+        width: 100%;
+    }
 `
 
 export const AboutName = styled.h1`
