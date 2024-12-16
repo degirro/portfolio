@@ -27,11 +27,11 @@ export const WorkWrapper = styled.div`
 
 export const WorkImgWrapper = styled.div`
     height: 100%;
-    width: 100%;
+    width: 60%;
     position: absolute;
     top: 0;
     right: 0;
-    filter: blur(5px);
+    filter: blur(3px);
 `
 
 export const WorkImg = styled.img`
@@ -39,7 +39,8 @@ export const WorkImg = styled.img`
     width: 100%;
     object-fit: cover;
     object-position: top;
-    opacity: 0.07;
+    opacity: 0.3;
+    display: none;
 `
 
 export const WorkNameWrapper = styled.a`
@@ -48,6 +49,7 @@ export const WorkNameWrapper = styled.a`
     align-items: center;
     cursor: pointer;
     z-index: 10;
+    text-decoration: none;
 `
 
 export const WorkName = styled.h3`
