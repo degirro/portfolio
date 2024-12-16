@@ -8,6 +8,10 @@ export const WorkContainer = styled.div`
     align-items: center;
     grid-gap: 10px;
     width: 100%;
+
+    @media (max-width: 930px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `
 
 export const WorkWrapper = styled.div`
