@@ -9,35 +9,35 @@ export type WorkDataType = {
 export const ProfessionalWorkData: WorkDataType[] = [
     {
         img: '',
-        url: '',
+        url: 'https://www.i-buy-exotics.com',
         name: 'i Buy Exotics',
         desc: 'Website designed for exotic car trading',
         stack: ['React', 'Express.js']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.catalystautogroup.com',
         name: 'Catalyst Auto Group',
         desc: 'Business providing exotic car rental services',
         stack: ['Wordpress']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.exoticautodetailsct.com',
         name: 'Exotic Auto Details',
         desc: 'Business provding car detailing services',
         stack: ['Wordpress']
     },
     {
-        img: 'Dental',
-        url: '',
-        name: 'Dental',
+        img: '',
+        url: 'https://www.brattdentalcare.com/',
+        name: 'Brattleboro Dental Care',
         desc: 'Family-owned dental business',
         stack: ['Wordpress']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.thetechteamct.com',
         name: 'The Tech Team',
         desc: 'Small business providing tech repair and software solutions',
         stack: ['Wordpress']
@@ -67,7 +67,7 @@ export const ProjectsData: WorkDataType[] = [
         stack: ['React', 'Laravel', 'Authentication', 'SQLite']
     },
     {
-        img: 'Dental',
+        img: '',
         url: '',
         name: 'Squash It',
         desc: 'Ticket tracker web app to manage work flow',

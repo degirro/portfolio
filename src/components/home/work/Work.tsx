@@ -14,9 +14,9 @@ export const Work: React.FC<props> = ({ workData, sectionTitle }) => {
                 {workData.map((work: WorkDataType) => (
                     <WorkWrapper>
                         <WorkImgWrapper>
-                            <WorkImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyy9p-P-n2bbPJX8GwYAJvN7TObmZ164M5sw&s" />
+                            <WorkImg src="" />
                         </WorkImgWrapper>
-                        <WorkNameWrapper>
+                        <WorkNameWrapper target="_blank" href={work.url}>
                             <WorkName>{work.name}</WorkName>
                             <NavigateIconWrapper>
                                 <NavigateIcon />
