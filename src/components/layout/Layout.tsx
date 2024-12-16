@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { LayoutContainer, OutletContainer } from "../../utils/styles/layout/LayoutStyled"
 import { Topbar } from "../topbar/Topbar"
+import { Footer } from "../home/footer/Footer"
 
 type props = {
     toggleTheme: () => void
@@ -13,6 +14,7 @@ export const Layout: React.FC<props> = ({ toggleTheme, isDarkMode }) => {
             <OutletContainer>
                 <Topbar toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
                 <Outlet />
+                <Footer />
             </OutletContainer>
         </LayoutContainer>
     )
