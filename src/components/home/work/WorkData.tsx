@@ -23,8 +23,8 @@ export const ProfessionalWorkData: WorkDataType[] = [
     },
     {
         img: '',
-        url: 'https://www.exoticautodetailsct.com',
-        name: 'Exotic Auto Details',
+        url: 'https://www.exoticdetailsct.com',
+        name: 'Exotic Details',
         desc: 'Business provding car detailing services',
         stack: ['Wordpress']
     },
@@ -47,28 +47,28 @@ export const ProfessionalWorkData: WorkDataType[] = [
 export const ProjectsData: WorkDataType[] = [
     {
         img: '',
-        url: '',
+        url: 'https://www.github.com/degirro/weatherwise',
         name: 'Weatherwise',
         desc: 'Web app that uses AI to suggest activities based on current weather',
         stack: ['React', 'Spring Boot', 'Spring Security', 'PostgreSQL']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.github.com/degirro/dot-blog',
         name: 'Dot Blog',
         desc: 'Blog website',
         stack: ['Angular', 'ASP.NET Core', 'Identity', 'PostgreSQL']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.github.com/degirro/versle',
         name: 'Versle',
         desc: 'Game inspired by Wordle where users try to corrently guess the bible verse',
         stack: ['React', 'Laravel', 'Authentication', 'SQLite']
     },
     {
         img: '',
-        url: '',
+        url: 'https://www.github.com/degirro/ticket-tracker-react',
         name: 'Squash It',
         desc: 'Ticket tracker web app to manage work flow',
         stack: ['React', 'Nestjs', 'Passport.js', 'MySQL']
