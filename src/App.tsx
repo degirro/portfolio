@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { Layout } from "./components/layout/Layout";
 import { useContext } from "react";
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route element={<Layout isDarkMode={isDarkMode} toggleTheme={toggleTheme} />}>
           <Route path="/" element={<Homepage />} />
+          <Route path="/*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
     </ThemeProvider>
