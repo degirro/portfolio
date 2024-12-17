@@ -256,6 +256,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     height: 100%;
     backdrop-filter: blur(10px);
     min-height: 100px;
+    width: 100%;
 
     @media (max-width: 930px) {
         min-height: auto;
