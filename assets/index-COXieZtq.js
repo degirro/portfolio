@@ -349,4 +349,4 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         border: none;
         cursor: pointer;
     }
-`;function Qg(){const{toggleTheme:o,isDarkMode:l}=E.useContext(Hd);return U.jsxs(k0,{theme:l?ig:lg,children:[U.jsx(Vg,{}),U.jsx(Vm,{children:U.jsxs(_i,{element:U.jsx(og,{isDarkMode:l,toggleTheme:o}),children:[U.jsx(_i,{path:"/",element:U.jsx(Hg,{})}),U.jsx(_i,{path:"*",element:U.jsx(Um,{to:"/",replace:!0})})]})})]})}Jh.createRoot(document.getElementById("root")).render(U.jsx(E.StrictMode,{children:U.jsx(ug,{children:U.jsx(hv,{children:U.jsx(Qg,{})})})}));
+`;function Qg(){const{toggleTheme:o,isDarkMode:l}=E.useContext(Hd);return U.jsxs(k0,{theme:l?ig:lg,children:[U.jsx(Vg,{}),U.jsx(Vm,{children:U.jsxs(_i,{element:U.jsx(og,{isDarkMode:l,toggleTheme:o}),children:[U.jsx(_i,{path:"/",element:U.jsx(Hg,{})}),U.jsx(_i,{path:"/*",element:U.jsx(Um,{to:"/",replace:!0})})]})})]})}Jh.createRoot(document.getElementById("root")).render(U.jsx(E.StrictMode,{children:U.jsx(ug,{children:U.jsx(hv,{children:U.jsx(Qg,{})})})}));
