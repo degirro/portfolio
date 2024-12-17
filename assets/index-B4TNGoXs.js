@@ -257,6 +257,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
 
     @media (max-width: 930px) {
         min-height: auto;
+        height: max-content;
     }
 `,jg=ie.a`
     display: flex;
