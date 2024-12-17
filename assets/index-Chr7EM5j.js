@@ -241,7 +241,9 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     height: 100%;
 
     @media (max-width: 930px) {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 `,Tg=ie.div`
     display: flex;
