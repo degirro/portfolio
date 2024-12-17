@@ -221,6 +221,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     flex-direction: column;
     gap: 15px;
     width: 100%;
+    height: 100%;
 `,Pg=oe.h2`
     width: 100%;
     padding: 15px 0px;
@@ -237,9 +238,10 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     align-items: center;
     grid-gap: 10px;
     width: 100%;
+    height: 100%;
 
     @media (max-width: 930px) {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 `,Tg=oe.div`
     display: flex;
@@ -254,6 +256,10 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     height: 100%;
     backdrop-filter: blur(10px);
     min-height: 100px;
+
+    @media (max-width: 930px) {
+        min-height: auto;
+    }
 `,jg=oe.div`
     height: 100%;
     width: 60%;
@@ -293,7 +299,7 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 10px;
+    gap: 5px;
     z-index: 10;
 `,Ag=oe.div`
     display: flex;
@@ -304,6 +310,10 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
     border-radius: 50px;
     color: ${o=>o.theme.colors.text};
     font-size: 13px;
+
+    @media (max-width: 930px) {
+        font-size: 10px;
+    }
 `,qf=({workData:o,sectionTitle:l})=>U.jsx(Vd,{title:l,children:U.jsx(Lg,{children:o.map(u=>U.jsxs(Tg,{children:[U.jsx(jg,{children:U.jsx(Ig,{src:""})}),U.jsxs(Og,{target:"_blank",href:u.url,children:[U.jsx(Dg,{children:u.name}),U.jsx(Mg,{children:U.jsx($g,{})})]}),U.jsx(Fg,{children:u.stack.map(s=>U.jsx(Ag,{children:s}))})]}))})}),Bg=[{img:"",url:"https://www.i-buy-exotics.com",name:"i Buy Exotics",desc:"Website designed for exotic car trading",stack:["React","Express.js"]},{img:"",url:"https://www.catalystautogroup.com",name:"Catalyst Auto Group",desc:"Business providing exotic car rental services",stack:["Wordpress"]},{img:"",url:"https://www.exoticdetailsct.com",name:"Exotic Details",desc:"Business provding car detailing services",stack:["Wordpress"]},{img:"",url:"https://www.brattdentalcare.com/",name:"Brattleboro Dental Care",desc:"Family-owned dental business",stack:["Wordpress"]},{img:"",url:"https://www.thetechteamct.com",name:"The Tech Team",desc:"Small business providing tech repair and software solutions",stack:["Wordpress"]}],Ug=[{img:"",url:"https://www.github.com/degirro/weatherwise",name:"Weatherwise",desc:"Web app that uses AI to suggest activities based on current weather",stack:["React","Spring Boot","Spring Security","PostgreSQL"]},{img:"",url:"https://www.github.com/degirro/dot-blog",name:"Dot Blog",desc:"Blog website",stack:["Angular","ASP.NET Core","Identity","PostgreSQL"]},{img:"",url:"https://www.github.com/degirro/versle",name:"Versle",desc:"Game inspired by Wordle where users try to corrently guess the bible verse",stack:["React","Laravel","Authentication","SQLite"]},{img:"",url:"https://www.github.com/degirro/ticket-tracker-react",name:"Squash It",desc:"Ticket tracker web app to manage work flow",stack:["React","Nestjs","Passport.js","MySQL"]}],Wg=oe.div`
     display: flex;
     flex-direction: column;
