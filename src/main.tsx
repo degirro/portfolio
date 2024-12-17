@@ -7,7 +7,7 @@ import { ThemeContextProvider } from './utils/context/ThemeContext.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeContextProvider>
-      <Router>
+      <Router basename="/portfolio">
         <App />
       </Router>
     </ThemeContextProvider>
