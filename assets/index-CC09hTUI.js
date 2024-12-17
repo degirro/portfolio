@@ -349,4 +349,4 @@ Please change the parent <Route path="${O}"> to <Route path="${O==="/"?"*":`${O}
         border: none;
         cursor: pointer;
     }
-`;function Vg(){const{toggleTheme:o,isDarkMode:l}=C.useContext(Wd);return H.jsxs(S0,{theme:l?og:ig,children:[H.jsx(Hg,{}),H.jsx(Hm,{children:H.jsx(na,{element:H.jsx(rg,{isDarkMode:l,toggleTheme:o}),children:H.jsx(na,{path:"/",element:H.jsx(Wg,{})})})})]})}Xh.createRoot(document.getElementById("root")).render(H.jsx(C.StrictMode,{children:H.jsx(lg,{children:H.jsx(pv,{children:H.jsx(Vg,{})})})}));
+`;function Vg(){const{toggleTheme:o,isDarkMode:l}=C.useContext(Wd);return H.jsxs(S0,{theme:l?og:ig,children:[H.jsx(Hg,{}),H.jsx(Hm,{children:H.jsx(na,{element:H.jsx(rg,{isDarkMode:l,toggleTheme:o}),children:H.jsx(na,{path:"/",element:H.jsx(Wg,{})})})})]})}Xh.createRoot(document.getElementById("root")).render(H.jsx(C.StrictMode,{children:H.jsx(lg,{children:H.jsx(pv,{basename:"/portfolio",children:H.jsx(Vg,{})})})}));
